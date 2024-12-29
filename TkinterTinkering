@@ -1,0 +1,14 @@
+#Tkinter print Hello World
+
+import tkinter as tk
+
+#root is common name for main window
+root = tk.Tk()
+
+# place a label on the root window, in this case saying Hello, World!
+message = tk.Label(root, text="Hello, World!")
+message.pack()
+
+root.mainloop()
+
+#This will print Hello World on a pop up window
