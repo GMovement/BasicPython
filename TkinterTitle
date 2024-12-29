@@ -1,0 +1,11 @@
+import tkinter as tk
+
+#root is common name for main window
+root = tk.Tk()
+
+# to change the title of root, use the title() method
+root.title('Test')
+
+#when you run this command, the window will have the title of Test
+
+root.mainloop()
